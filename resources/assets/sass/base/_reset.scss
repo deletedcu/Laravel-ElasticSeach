@@ -1,0 +1,14 @@
+/* Reset - style */
+
+.container{
+    width: 1430px;
+    @include tablet{
+        width: 100%;
+    }
+    @include mobile{
+        width: 100%;
+    }
+    @include desktopLg{
+        width: 100%;
+    }
+}

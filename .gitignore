@@ -1,0 +1,15 @@
+/vendor
+/node_modules
+/public/storage
+/public/files/*
+/public/files/contacts/*
+/public/files/documents/*
+/public/files/juristenportal/*
+/public/files/pictures/*
+/resources/assets/vendor/*
+!/resources/assets/vendor/js/
+!/resources/assets/vendor/js-modified-plugins/
+!/resources/assets/vendor/img/
+Homestead.yaml
+Homestead.json
+.env

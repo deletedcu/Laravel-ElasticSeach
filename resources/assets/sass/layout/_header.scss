@@ -1,0 +1,51 @@
+.custom-search-form{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.custom-search-form input.form-control {
+    padding: 19px 15px;
+    width: 280px;
+    color: $nav-grey;
+    border-color: $nav-grey;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    padding-bottom: 10px;
+    background-color: transparent; 
+    // background-color: #fff;
+    border: none !important;
+}
+.navbar-nav.icons {
+    margin: 0;
+}
+ul.nav.navbar-nav.icons li {
+    display: inline-block;
+}
+.nav-brand {
+    display: inline-block;
+    padding-top: 15px;
+
+}
+.nav.navbar-nav.icons a {
+    padding: 15px 5px 0 0;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #606060;
+
+}
+
+.nav-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+

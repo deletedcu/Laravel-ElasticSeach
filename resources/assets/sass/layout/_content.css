@@ -1,0 +1,68 @@
+/*
+Error: Undefined variable: "$nav-grey".
+        on line 13 of /home/ubuntu/workspace/neptun-intranet/resources/assets/sass/layout/_content.scss
+
+8: 
+9: .panel-heading a:not(.no-arrow):after {
+10:     content: " ";
+11:     background: url("/img/icons/arrow_dark_down.png") no-repeat;
+12:     float: left;
+13:     color: $nav-grey;
+14:     margin-right: 10px;
+15:     width: 21px;
+16:     height: 21px;
+17:     margin-top: 3px;
+18: }
+
+Backtrace:
+/home/ubuntu/workspace/neptun-intranet/resources/assets/sass/layout/_content.scss:13
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/mnt/shared/sbin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$nav-grey\".\A         on line 13 of /home/ubuntu/workspace/neptun-intranet/resources/assets/sass/layout/_content.scss\A \A 8: \A 9: .panel-heading a:not(.no-arrow):after {\A 10:     content: \" \";\A 11:     background: url(\"/img/icons/arrow_dark_down.png\") no-repeat;\A 12:     float: left;\A 13:     color: $nav-grey;\A 14:     margin-right: 10px;\A 15:     width: 21px;\A 16:     height: 21px;\A 17:     margin-top: 3px;\A 18: }"; }

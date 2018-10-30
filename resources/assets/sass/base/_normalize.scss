@@ -1,0 +1,28 @@
+/* Normalize - style */
+
+html, body{
+  height: 100%;
+  min-height: 100%;
+}
+select{
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     appearance: none;
+    :active{
+        border: 3px solid $primary-barney-color;
+    }
+    :focus{
+        border: 3px solid $primary-barney-color;
+    }
+    :-ms-expand {
+        display: none;
+    }
+    
+}
+
+input{
+    &[type="submit"]{
+        border: 0;
+    }
+}

@@ -1,0 +1,627 @@
+.container-fluid.first {
+    min-height: 95vh;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container-fluid.first {
+        padding-bottom: 50px;
+    }
+}
+
+.dl-horizontal dt {
+    text-overflow: clip !important;
+    white-space: normal !important;
+}
+
+.panel-heading a:not(.no-arrow):after {
+    content: " ";
+    background: url("/img/icons/arrow_dark_down.png") no-repeat;
+    float: left;
+    color: $nav-grey;
+    margin-right: 10px;
+    width: 21px;
+    height: 21px;
+    margin-top: 3px;
+}
+
+.panel-heading a.collapsed:not(.no-arrow):after {
+    content: " ";
+    background: url("/img/icons/arrow_dark.png") no-repeat;
+    width: 21px;
+    height: 21px;
+    margin-top: 0px;
+}
+
+// .panel-heading span .btn{
+//     margin-top:-4px;
+// }
+.panel-heading a {
+    line-height: 22px;
+}
+
+.panel-collapse {
+    background-color: $box-grey-wrapper;
+    padding: 0 15px 15px 15px;
+    margin-top: -1px;
+}
+
+.dataTables_wrapper {
+    // background-color: $box-inner-color;
+    // padding: 15px; 
+}
+
+.panel-body {
+    background-color: #fff;
+}
+
+#page-wrapper .panel-primary>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+
+#page-wrapper .panel-group .panel+.panel {
+    margin-top: 15px;
+}
+
+#wrapper {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#page-wrapper {
+    padding: 0 5px !important;
+    margin-right: 10px !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.fixed-row {
+    margin-top: 0;
+    // padding-bottom: 65px;
+}
+
+.fixed-position {
+    position: fixed !important;
+    background-color: transparent;
+    z-index: 999;
+    top: 73px;
+    left: 315px;
+    right: 30px;
+    min-height: 40px;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 63px !important;
+}
+
+.box-wrapper,
+.box {
+    padding: 16px;
+}
+
+.box-wrapper {
+    background-color: $box-grey-wrapper;
+    margin-bottom: 15px;
+}
+
+.box-wrapper.box-white .list-group-item,
+.box-wrapper.box-white .box {
+    background-color: $box-white-wrapper !important;
+}
+
+.box {
+    background-color: $box-inner-color;
+}
+
+.box-header {
+    border-bottom: 1px solid $border-color;
+    padding: 15px 0;
+    margin: 0 0 20px 0;
+}
+
+h1.page-title {
+    color: $dark-blue;
+    font-size: 25px;
+    line-height: initial;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.title,
+.modal-title {
+    font-family: $arial-font-family;
+    color: $dark-blue;
+    font-size: 18px;
+    text-transform: normal;
+    line-height: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.form-buttons {
+    padding: 0;
+}
+
+.scrollable-document {
+    width: 130px !important;
+    position: fixed !important;
+    right: 48px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    z-index: 100;
+    background: #fff;
+}
+
+.scrollable-document.notiz {
+    top: 217px;
+}
+
+// .form-group .checkbox {
+//     margin-top: 5px;
+//     margin-bottom: 10px;
+// }
+#page-wrapper.form-group .radio,
+#page-wrapper .form-group .checkbox,
+.checkbox-form-group {
+    margin-top: 20px;
+}
+
+
+/*This is a fix for benuzer form on certain devices*/
+
+#page-wrapper .col-md-4.col-lg-3 .form-group .checkbox {
+    min-height: 41px;
+}
+
+
+/*End This is a fix for benuzer form on certain devices*/
+
+.custom-input-group-btn {
+    display: block;
+    margin-top: 22px;
+}
+
+.box-wrapper .node-:not(.node-disabled):hover {
+    background-color: $white-color;
+}
+
+#wrapper .panel-primary {
+    border: none;
+}
+
+#wrapper .panel-primary>.panel-heading {
+    background-color: $box-grey-wrapper;
+    border: none;
+    font-family: $primary-font-family;
+    font-weight: bold;
+    color: $dark-blue;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#page-wrapper .panel-title>span,
+#page-wrapper .panel-title>a,
+#page-wrapper .panel-title>small,
+#page-wrapper .panel-title>.small,
+#page-wrapper .panel-title>small>a,
+#page-wrapper .panel-title>.small>a,
+#page-wrapper .panel-title .col-xs-6>a,
+#page-wrapper .panel-title .col-xs-7>a {
+    font-family: "Arial", sans-serif, "Helvetica Neue", Helvetica;
+    color: $dark-blue; // color: #0e1e6d;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+h1.transform-normal,
+h2.transform-normal,
+h3.transform-normal,
+h4.transform-normal,
+p.transform-normal,
+a.transform-normal,
+span.transform-normal {
+    text-transform: initial !important;
+}
+
+// #page-wrapper .panel-title > a {
+//     padding-left: 15px;
+// }
+.white-bgrnd {
+    background-color: $white-color;
+}
+
+
+/* document details - start */
+
+.box .header p {
+    margin-bottom: 0;
+}
+
+.box .content p {
+    line-height: 22px;
+}
+
+.box .content p:not(.title-small) {
+    margin-bottom: 16px;
+}
+
+.attachments span.indent {
+    display: inline-block;
+    padding-left: 130px;
+}
+
+.document-attachments span.indent {
+    padding-left: 100px;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.btns .btn:last-child {
+    margin-bottom: 0 !important;
+}
+
+
+/* document details - end */
+
+
+/* pagination - start */
+
+#page-wrapper .pagination {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 0 15px;
+    background-color: white;
+    border-top: 1px solid $box-grey-wrapper;
+}
+
+#page-wrapper .pagination>li>a,
+#page-wrapper .pagination>li>span {
+    padding: 5px 3px;
+    border: none;
+    font-family: $primary-font-family;
+    font-size: 14px;
+    color: $text-primary;
+    float: initial;
+    line-height: 26px;
+}
+
+#page-wrapper .pagination>.active>a,
+#page-wrapper .pagination>.active>span,
+#page-wrapper .pagination>.active>a:hover,
+#page-wrapper .pagination>.active>span:hover,
+#page-wrapper .pagination>.active>a:focus,
+#page-wrapper .pagination>.active>span:focus {
+    background-color: initial;
+    font-weight: bold;
+}
+
+#page-wrapper .pagination>li>a:hover,
+#page-wrapper .pagination>li>span:hover,
+#page-wrapper .pagination>li>a:focus,
+#page-wrapper .pagination>li>span:focus {
+    background-color: $nav-light-grey;
+}
+
+#page-wrapper .pagination>li:first-child>a,
+#page-wrapper .pagination>li:first-child>span,
+#page-wrapper .pagination>li:last-child>a,
+#page-wrapper .pagination>li:last-child>span {
+    border-radius: 0;
+}
+
+
+/* pagination - end */
+
+
+/* Box fix - start */
+
+.box-wrapper.button-box {
+    margin-top: -45px;
+}
+
+
+/* Box fix - end */
+
+
+/* modal dialog - start */
+
+#page-wrapper .modal-content {
+    background-color: $box-grey-wrapper;
+    border-radius: 0;
+    border: none;
+    padding: 15px;
+}
+
+#page-wrapper .modal-header {
+    padding: 0;
+    border: none;
+}
+
+#page-wrapper .modal-body {
+    background-color: $white-color;
+}
+
+#page-wrapper .modal-footer {
+    border: none;
+    background-color: $white-color;
+    padding-top: 0;
+}
+
+#page-wrapper .modal-footer .btn {
+    margin-bottom: 0;
+}
+
+
+/* modal dialog - end */
+
+
+/*mandant-administration */
+
+.mandant-administration #page-wrapper .panel-title>a {
+    // padding-left: 30px;
+}
+
+.mandant-administration #page-wrapper .panel .panel-options .btn {
+    min-width: 100px;
+    margin-bottom: initial;
+}
+
+.mandant-administration .panel-heading {
+    display: inline-block;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.mandant-administration .panel-options {
+    margin-top: 5px;
+}
+
+.mandant-administration .panel-options form {
+    // padding-top: 10px;
+}
+
+.mandant-administration h4.panel-title {
+    line-height: 28px;
+}
+
+.mandant-administration .panel-title a {
+    padding-left: 0px;
+}
+
+.mandant-administration .panel-heading a:not(.no-arrow):after,
+.mandant-administration .panel-heading a.collapsed:not(.no-arrow):after {
+    margin-left: -31px;
+}
+
+.panel.panel-primary {
+    box-shadow: none;
+}
+
+.container-fluid .mandant-administration .collapsing,
+.container-fluid .mandant-administration .collapse.in {
+    margin-top: -4px;
+}
+
+
+/* end mandant-administration */
+
+
+/* phonelist */
+
+.phonelist #page-wrapper .panel-title>a {
+    // padding-left: 30px;
+}
+
+.phonelist #page-wrapper .panel .panel-options .btn {
+    min-width: 100px;
+    margin-bottom: initial;
+}
+
+.phonelist .panel-heading {
+    display: inline-block;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.phonelist .panel-options {
+    // margin-top: 5px;
+}
+
+.phonelist .panel-options form {
+    // padding-top: 10px;
+}
+
+.phonelist h4.panel-title {
+    line-height: 28px;
+}
+
+.phonelist .panel-title a {
+    padding-left: 0px;
+}
+
+.phonelist .panel-heading {
+    margin-bottom: -4px;
+}
+
+.phonelist .panel-heading a:not(.no-arrow):after,
+.phonelist .panel-heading a.collapsed:not(.no-arrow):after {
+    margin-left: -31px;
+}
+
+.panel.panel-primary {
+    box-shadow: none;
+}
+
+.phonelist .collapsing,
+.mandant-administration .collapse.in {
+    // margin-top: -4px; 
+}
+
+
+/* end phonelist */
+
+
+/* tabs - start */
+
+.content .tab-content {
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-width: 1px 1px 1px 1px;
+    min-height: 227px;
+}
+
+#page-wrapper .mce-panel {
+    border-color: $border-color;
+}
+
+.row.flexbox-container a {
+    display: block;
+    float: left;
+    text-decoration: none !important;
+}
+
+.row.flexbox-container a.link {
+    margin-top: 3px;
+}
+
+.delete-comment {
+    padding: 0 10px;
+}
+
+
+/* tabs - end */
+
+
+/* Wiki search */
+
+.wiki-search a h4,
+.wiki-search a span {
+    font-size: 16px !important;
+}
+
+.wiki-search a h4,
+.wiki-search a small {
+    font-size: 14px !important;
+}
+
+
+/* End  Wiki search */
+
+
+/* Wiki administration */
+
+.wiki-managment-search select {
+    width: auto;
+}
+
+
+/* End Wiki administration */
+
+
+/* Treeview */
+
+.list-group .child-node {
+    border: none;
+    border-top: none !important;
+    padding: 5px 0 15px 0 !important;
+}
+
+.list-group .child-node.first-child {
+    // margin-top: -15px;
+    margin-top: -10px;
+}
+
+.list-group .child-node .item-before-text,
+.list-group .child-node .item-after-text {
+    display: none;
+}
+
+.list-group .child-node span.icon {
+    height: 25px !important;
+}
+
+.tree-view.wiki .icon.glyphicon {
+    display: none !important;
+}
+
+
+/* End Treeview */
+
+
+/* Iso category page*/
+
+.second-level {
+    margin-left: 25px;
+}
+
+
+/* End Iso category page*/
+
+
+/* Wiki category search*/
+
+.corrected-search-margin {
+    margin-top: -50px;
+}
+
+
+/* Invetory list edit modal */
+
+.modal-lg.edit .control-label {
+    float: left;
+}
+
+.modal-lg.edit .chosen-container {
+    text-align: left;
+}
+
+
+/* end Invetory list edit modal */
+
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+    .corrected-search-margin {
+        margin-top: -75px;
+    }
+}
+
+
+/* End Wiki category search*/
+
+
+/* Inventory history */
+
+.history-div p {
+    word-wrap: break-word;
+}
+
+
+/* end Inventory history */
+
+
+/* Juristen Portal */
+
+.jurist-subcategory-option-level-one {
+    padding-left: 45px !important;
+}
+
+.jurist-subcategory-option-level-two {
+    padding-left: 70px !important;
+}
+
+.meta-info-margin {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* End Juristen Portal */

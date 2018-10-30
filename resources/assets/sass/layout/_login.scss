@@ -1,0 +1,43 @@
+body#app-layout {
+  padding-top: 0 !important;
+}
+
+.login .page-title {
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.login .panel {
+  border: none;
+  border-radius: 0;
+  background-color: $box-grey-wrapper;
+}
+
+.login .panel-body {
+  background-color: $box-grey-wrapper;
+}
+
+.login .form-control {
+  font-family: $primary-font-family;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 5px 15px;
+}
+
+.login .btn {
+   font-family: $primary-font-family;
+   font-size: 12px;
+}
+
+.login .btn.btn-primary {
+  padding: 4px 49px;
+  border: none;
+}
+
+.login .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px;
+}
+

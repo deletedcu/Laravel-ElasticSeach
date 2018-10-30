@@ -1,0 +1,24 @@
+#app-layout .pos-abs {
+    bottom: 0;
+    position: absolute;
+}
+
+.footer p,
+.footer b {
+    font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.footer.footer-additional {
+    position: fixed;
+    bottom: 0;
+    left: 254px;
+    z-index: 999;
+}
+
+.footer-wrapper {
+    // padding: 5px 130px;
+    padding-left: 62px;
+    padding-right: 40px;
+}

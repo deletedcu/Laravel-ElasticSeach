@@ -1,0 +1,145 @@
+.sidebar {
+    margin-top: 10px !important;
+    margin-left: 15px;
+    width: 240px !important;
+    
+}
+
+.navbar-default.sidebar {
+   /* width: auto !important; */
+    width: 241px !important;
+    background-color: transparent !important;
+    top: 72px;
+    bottom: 10px;
+}
+
+.sidebar-nav.navbar-collapse {
+    margin-right: 41px;
+    width: 200px;
+    height: 100%;
+    overflow-x: hidden;
+    padding-bottom: 23px;
+}
+
+
+#side-menu {
+    display: block;
+    background-color: $nav-light-grey;
+    position:relative;
+    min-height: 320px;
+    overflow-y: auto;
+    height: 100%;
+    width: 216px;
+}
+
+.navbar-toggle.big {
+    margin: 0;
+}
+
+.navbar-toggle {
+    width: 40px;
+    height: 40px;
+    background-color: $nav-light-grey !important;
+    // background-color: $nav-light-color !important;
+    border: none !important;
+    padding: 10px 8px !important;
+
+}
+.navbar-toggle .icon-bar {
+    width: 20px;
+    height: 2px;
+    border-radius: 0px;
+    background-color: $white-color !important;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 3px !important;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #fff !important;
+    width: 200px;
+}
+// .sidebar ul li:not(.legend) {
+//     z-index: 100;
+// }
+
+.sidebar-nav .nav a, span.legend-text {
+    color: $nav-grey;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 15px;
+    line-height: 17px;
+}
+
+.sidebar-nav .nav a.active {
+    color: $nav-blue-active;
+}
+
+/* Legend - start  */
+span.legend-text {
+    display: inline-block;
+    font-family: $arial-font-family;
+}
+li.legend-absolute {
+    position: absolute !important;
+    bottom: 0px;
+    width: 100%;
+}
+
+li.legend {
+    position: fixed !important;
+    bottom: 10px;
+    border-top: 1px solid $white-color;
+    background-color: $nav-light-grey;
+    height: 41px;
+}
+
+.legend .icon-legend {
+    width: 38px;
+    height: 38px;
+    border-left: 1px solid $white-color;
+    cursor: pointer;
+  /*  margin-left: 83px;*/
+}
+
+.legend .icon-legend {
+    background: url(/img/icons/arrow_select_up.png) no-repeat center center;
+}
+
+.legend-shadow .icon-legend {
+    background: url(/img/icons/arrow_select_down.png) no-repeat center center;
+}
+
+.legend-shadow {
+    -webkit-box-shadow: -5px -5px 5.7px 0.3px rgba(0,0,0,0.15);
+    -moz-box-shadow: -5px -5px 5.7px 0.3px rgba(0,0,0,0.15);
+    box-shadow: -5px -5px 5.7px 0.3px rgba(0,0,0,0.15);
+}
+
+.legend-wrapper {
+    position: absolute;
+    bottom: 40px;
+    background-color: $nav-light-grey;
+    // width: 100%;
+    width: 200px;
+    display: none;
+    z-index: 999;
+    // bottom: 125px;
+}
+
+.legend-wrapper .legend-icons {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.legend-ul > li:first-child {
+    border-top: 1px solid $white-color;
+}
+
+
+
+
+/* Legend - end  */

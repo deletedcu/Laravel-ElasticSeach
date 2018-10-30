@@ -1,0 +1,30 @@
+/* icons - start */
+@each $nav-el in home, profil, logout, kontakt {
+  .icon-#{$nav-el} {
+    background: url('/img/icons/icon_#{$nav-el}.png') no-repeat;
+  }
+  .icons-top a.active .icon-#{$nav-el} ,
+  .icons-top a:hover .icon-#{$nav-el} {
+    background: url('/img/icons/icon_#{$nav-el}_active.png') no-repeat;
+  }
+}
+
+@each $el in favorites, edit, blocked, open, notread, read, notreleased, released, history, download, goto, comment, legend, arrow, trash, reset, draft, approvedunpublished {
+  .icon-#{$el} {
+    background: url('/img/icons/icon_#{$el}.png') no-repeat center center;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+// Homepage filter buttons functionality
+@each $el in blocked, open, notreleased, released, draft, approvedunpublished {
+  .filter-buttons .filter-active.icon-#{$el} {
+    background: url('/img/icons/icon_#{$el}_active.png') no-repeat center center;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* icons - end */

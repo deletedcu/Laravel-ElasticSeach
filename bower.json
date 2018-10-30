@@ -1,0 +1,34 @@
+{
+  "name": "NeptunIntranet",
+  "version": "1.0.0",
+  "authors": [
+    "Marijan Gudelj <marijan.gudelj@webbite.de>",
+    "Filip Filipovic <filip@webbite.de>",
+    "Verena Rometsch <vr@webbite.de>"
+  ],
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.*",
+    "jquery-ui": "^1.11.4",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1",
+    "tinymce": "^4.3.11",
+    "chosen": "^1.5.1",
+    "startbootstrap-sb-admin-2": "^1.0.8",
+    "metisMenu": "^1.1.3",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37",
+    "bootstrap-treeview": "^1.2.0",
+    "twitter-bootstrap-wizard": "^1.3.2",
+    "bootstrap-colorpicker": "^2.5.1",
+    "fullcalendar.io": "^1.5.2"
+  }
+}

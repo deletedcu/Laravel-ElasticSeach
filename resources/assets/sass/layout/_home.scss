@@ -1,0 +1,50 @@
+body.home-page {
+    padding-bottom: 10px;
+}
+
+.home.fixed-row {
+    padding-bottom: 10px;
+}
+.home.fixed-row h1.page-title {
+    font-size: 25px;
+}
+
+#page-wrapper .home .btn {
+    margin-bottom: 0;
+}
+
+/* boxes - treeview - start */
+#page-wrapper .list-group-item {
+    border: none;
+}
+#page-wrapper .list-group-item {
+    background-color: $box-inner-color;
+    border-top: 1px solid $border-color;
+    // border-bottom: 1px solid $border-color;
+    padding: 15px 0;
+  
+}
+#page-wrapper .list-group-item:first-child {
+    border: none;
+}
+#page-wrapper .list-group-item:first-child, 
+#page-wrapper .list-group-item:last-child {
+    border-radius: 0;
+}
+
+#page-wrapper .list-group-item a {
+    color: $text-primary !important;
+    font-family: $primary-font-family;
+    font-weight: bold;
+}
+
+#page-wrapper .node- {
+    color: #b6b6b6;
+}
+
+#page-wrapper .node-selected {
+    background-color: transparent !important;
+    color:  #b6b6b6 !important;
+}
+
+/* boxes - treeview - end */

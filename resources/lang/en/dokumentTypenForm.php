@@ -1,0 +1,38 @@
+<?php
+
+return [
+
+    'document-types-management' => 'NEPTUN-Verwaltung - Dokument-Typen',
+    'document' => 'Dokument',
+    'documents' => 'Dokumente',
+    'options' => 'Optionen',
+    'type' => 'Typ',
+    'types' => 'Typen',
+    'document_art' => 'Dokumentart/Darstellung',
+    'document_role' => 'Berechtigung zum Erstellen',
+    'editor' => 'Editor-Dokument',
+    'upload' => 'Upload-Dokument',
+    'management' => 'Verwalten',
+    'name' => 'Name',
+    'overview' => 'Übersicht',
+    'overview-menu' => 'Dokument-Typen im Hauptmenü',
+    'overview-submenu' => 'Dokument-Typen im Untermenü',
+    'add' => 'hinzufügen',
+    'save' => 'speichern',
+    'active' => 'aktiv',
+    'inactive' => 'inaktiv',
+    'allow_comments' => 'Kommentare erlauben',
+    'read_required' => 'muss gelesen werden',
+    'visible_navigation' => 'Menüeintrag anzeigen',
+    'rundschreiben' => 'Rundschreiben',
+    'verfasser' => 'Verfasser',
+    'typesEntwurf' => 'Entwurf',
+    'typesFreigabe' => 'im Freigabeprozess',
+    'typesAll' => 'Alle',
+    'order' => 'Sortierung',
+    'toMenu' => 'In Hauptmenü',
+    'toSubmenu' => 'In Untermenü',
+    'updated' => 'Dokument Typ erfolgreich aktualisiert.',
+    'publish_sending' => 'Veröffenlichung Versand',
+    
+];

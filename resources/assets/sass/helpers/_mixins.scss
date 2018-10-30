@@ -1,0 +1,132 @@
+/* Mixins - start */
+
+/* Media queries Mixins - start */
+
+@mixin mobile{
+    @media (max-width: 767px) and (min-width: 300px){
+        @content;
+    }
+}
+
+@mixin mobilePortrait{
+    @media (max-width: 380px) and (min-width: 300px){
+        @content;
+    }
+}
+
+@mixin mobileLandscape{
+    @media (max-width: 767px) and (min-width: 381px){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (max-width: 1024px) and (min-width: 768px){
+        @content;
+    }
+}
+
+@mixin tabletPortrait{
+    @media (max-width: 992px) and (min-width: 768px){
+        @content;
+    }
+}
+
+@mixin tabletLandscape{
+    @media (max-width: 1025px) and (min-width: 993px){
+        @content;
+    }
+}
+
+@mixin desktopLg{
+     @media (max-width: 1400px) and (min-width: 1025px){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: 1025px){
+        @content;
+    }
+}
+
+/* Media queries Mixins - end */
+
+
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    position: absolute;
+}
+
+//This mixin sets the font size in rem's with a px fallback
+@mixin font-size($sizeValue: 12 ){
+    font-size: $sizeValue + px; //fallback for old browsers
+    font-size: (0.125 * $sizeValue) + rem;
+}
+
+// create placeholder mixin
+@mixin placeholder($color, $size:"") {
+  &::-webkit-input-placeholder {
+    color: $color !important;
+    font-family: $primary-font-family !important;
+    text-transform: uppercase;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &:-moz-placeholder {
+    color: $color !important;
+    font-family: $primary-font-family  !important;
+    text-transform: uppercase;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &::-moz-placeholder {
+    color: $color !important;
+    font-family: $primary-font-family  !important;
+    text-transform: uppercase;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &:-ms-input-placeholder {
+    color: $color !important;
+    font-family: $primary-font-family !important;
+    text-transform: uppercase;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  
+}
+
+// generic transform
+@mixin rotate( $val: 90deg ) {
+  -webkit-transform: rotate($val);
+  -moz-transform: rotate($val);
+  -ms-transform: rotate($val);
+  -o-transform: rotate($val);
+  transform: rotate($val);
+}
